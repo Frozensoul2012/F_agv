@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_overall"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navigation_bar_homepage"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/stop_move" />
+
+        <Button
+            android:id="@+id/btn_up"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_above="@id/btn_stop"
+            android:layout_centerInParent="true"
+            android:background="@drawable/up" />
+
+        <Button
+            android:id="@+id/btn_down"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/btn_stop"
+            android:layout_centerInParent="true"
+            android:background="@drawable/down" />
+
+        <Button
+            android:id="@+id/btn_left"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:layout_toStartOf="@id/btn_stop"
+            android:background="@drawable/left" />
+
+        <Button
+            android:id="@+id/btn_right"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@id/btn_stop"
+            android:background="@drawable/right" />
+
+        <Button
+            android:id="@+id/btn_left_up"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_above="@id/btn_stop"
+            android:layout_toStartOf="@id/btn_stop"
+            android:background="@drawable/left_up" />
+
+        <Button
+            android:id="@+id/btn_right_up"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_above="@id/btn_stop"
+            android:layout_toEndOf="@id/btn_stop"
+            android:background="@drawable/right_up" />
+
+        <Button
+            android:id="@+id/btn_left_down"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/btn_stop"
+            android:layout_toStartOf="@id/btn_stop"
+            android:background="@drawable/left_down" />
+
+        <Button
+            android:id="@+id/btn_right_down"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/btn_stop"
+            android:layout_toEndOf="@id/btn_stop"
+            android:background="@drawable/right_down" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_rotate_left"
+                android:layout_width="110dp"
+                android:layout_height="120dp"
+                android:background="@drawable/rotate_left" />
+
+            <Button
+                android:id="@+id/btn_rotate_right"
+                android:layout_width="110dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/rotate_right" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_lock"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/locked"
+            android:layout_alignParentEnd="true"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

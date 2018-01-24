@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ostrich-robot</string>
+    <string name="navigation_bar_homepage">首页</string>
+    <string name="navigation_bar_movement">移动</string>
+    <string name="navigation_bar_sys_config">系统设置</string>
+    <string name="navigation_bar_sys_camera">状态检测</string>
+
+    <string name="state_cmd_type">指令类型</string>
+    <string name="state_pkg_length">包长度</string>
+    <string name="state_seq">指令序号</string>
+    <string name="state_vx">x轴速度</string>
+    <string name="state_vy">y轴速度</string>
+    <string name="state_axisx">x轴坐标</string>
+    <string name="state_axisy">y轴坐标</string>
+    <string name="state_ori">朝向</string>
+    <string name="state_rfid">rfid序列号</string>
+    <string name="state_magn">磁条序列号</string>
+    <string name="state_infral">左侧红外</string>
+    <string name="state_infrar">右侧红外</string>
+    <string name="state_utf">前侧超声</string>
+    <string name="state_utb">后侧超声</string>
+    <string name="state_moto_state">电机状态</string>
+
+    <string name="Legend">Legend</string>
+    <string name="v_normal">Normal Value</string>
+    <string name="v_zero">Empty Value</string>
+    <string name="v_error">Error Value</string>
+</resources>
